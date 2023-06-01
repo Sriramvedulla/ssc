@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSC Registration Form</title>
+    <link rel="stylesheet" href="./styles/ssc_styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <h2>BASIC DETAILS</h2>
+      <p>
+        NOTE: Candidates must be cautious while filling up Registration details.
+        Your candidature may get cancelled in case incorrect/ wrong information
+        is furnished.
+      </p>
+      <table>
+        <tr class="con">
+          <td>
+            1. Do you have Aadhar
+            <sup>*</sup>
+          </td>
+          <td>
+            <input type="radio" id="yes" value="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" value="no" />
+            <label for="no">No</label>
+          </td>
+        </tr>
+        <tr class="cont">
+          <td>
+            1a. Aadhar Number
+            <sup>*</sup>
+          </td>
+          <td>
+            <label for="aadhnum"></label>
+            <input type="text" id="aadhnum" name="Aadhar Number" /><br />
+            <span>
+              Aadhaar Number should be same as mentioned in Aadhaar Card
+            </span>
+          </td>
+        </tr>
+        <tr class="conta">
+          <td>1b. Verify Aadhar Number<sup>*</sup></td>
+          <td>
+            <label for="verify"></label>
+            <input type="text" id="verify" name="Verify Aadhar Number" />
+          </td>
+        </tr>
+        <tr class="contai">
+          <td>1c. Type of ID<sup>*</sup></td>
+          <td>
+            <select name="" id="idtypes">
+              <option value="--Select--">--Select--</option>
+              <option value="Driving Licence">Driving Licence</option>
+              <option value="Employment ID(Govt/PSU/Private)">
+                Employment ID(Govt/PSU/Private)
+              </option>
+              <option value="PAN Card">PAN Card</option>
+              <option value="Passport">Passport</option>
+              <option value="School/College ID Card">
+                School/College ID Card
+              </option>
+              <option value="Voter ID Card">Voter ID Card</option>
+              <br />
+            </select>
+            <br />
+            <span>
+              Type of ID and ID Number to be provided if you don't want to give
+              Aadhaar number.
+            </span>
+          </td>
+        </tr>
+        <tr class="number">
+          <td>1d. ID Number<sup>*</sup></td>
+          <td>
+            <label for="idnum"></label>
+            <input type="text" id="idnum" name="ID Number" />
+          </td>
+        </tr>
+        <tr class="applic">
+          <td>2a. Name<sup>*</sup></td>
+          <td>
+            <label for="cname"></label>
+            <input type="text" id="cname" name="name" />
+            <br />
+            <span>
+              1. Name should be same as mentioned in Matriculation Certificate
+            </span>
+            <br />
+            <span>
+              2. Please enter name without any salutation (i e Shri/ Smt/ Mr/
+              Mrs/ Ms/ Dr/ Prof)
+            </span>
+          </td>
+        </tr>
+        <tr class="vrapplic">
+          <td>2b. Verify Name:</td>
+          <td>
+            <label for="verfyname"></label>
+            <input type="text" id="verfyname" name="verify name" />
+          </td>
+        </tr>
+        <tr class="changename">
+          <td>2c. Have you ever Changed Name?<sup>*</sup></td>
+          <td>
+            <input type="radio" id="nameyes" value="yes" />
+            <label for="nayes">Yes</label>
+            <input type="radio" id="nameno" value="no" />
+            <label for="nano">No</label>
+          </td>
+        </tr>
+        <tr class="new">
+          <td>2d. Changed Name/ New Name</td>
+          <td>
+            <label for="newname"></label>
+            <input type="text" id="newname" name="chaned name/new name" />
+          </td>
+        </tr>
+        <tr class="fathername">
+          <td>3a. Father's Name<sup>*</sup></td>
+          <td>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fathers name" />
+            <br />
+            <span>
+              1. Father's Name should be same as mentioned in Matriculation
+              Certificate
+            </span>
+            <br />
+            <span>
+              2. Please enter name without any salutation (i e Mr/ Shri/ Late/
+              Dr/ Prof etc
+            </span>
+          </td>
+        </tr>
+        <tr class="vrfathername">
+          <td>3a. Verify Father's Name</td>
+          <td>
+            <label for="verfyftname"></label>
+            <input type="text" id="verfyftname" name="verify fathers name" />
+          </td>
+        </tr>
+        <tr calss="mothername">
+          <td>4a. Mother's Name<sup>*</sup></td>
+          <td>
+            <label for="mname"></label>
+            <input type="text" id="mname" name="mothers name" />
+            <br />
+            <span>
+              1. Mother's Name should be same as mentioned in Matriculation
+              Certificate
+            </span>
+            <br />
+            <span>
+              2. Please enter name without any salutation (i e Mr/ Shri/ Late/
+              Dr/ Prof etc
+            </span>
+          </td>
+        </tr>
+        <tr class="vrmothername">
+          <td>4b. Verify Mother's Name</td>
+          <td>
+            <label for="vermname"></label>
+            <input type="text" id="vermname" name="verify mothers name" />
+          </td>
+        </tr>
+        <tr class="birth">
+          <td>5a. Date of Birth (DD/MM/YYYY)<sup>*</sup></td>
+          <td>
+            <label for="birthday"></label>
+            <input type="date" id="birthday" name="date of birth" />
+          </td>
+        </tr>
+        <tr class="vrbirth">
+          <td>5b. Verify Date of Birth (DD/MM/YYYY)</td>
+          <td>
+            <label for="vrbirthday"></label>
+            <input type="date" id="vrbirthday" name="verify date of birth" />
+          </td>
+        </tr>
+        <tr>
+          <td>6. Matriculation (10th Class) Examination details :</td>
+        </tr>
+        <tr class="board">
+          <td>(i). Education Board<sup>*</sup></td>
+          <td>
+            <select id="school">
+              <option value="--Select--">--Select--</option>
+              <option value="Central Board of Secondary Education (CBSE)">
+                Central Board of Secondary Education (CBSE)
+              </option>
+              <option value="National Institute of Open Schooling(NIOS)">
+                National Institute of Open Schooling(NIOS)
+              </option>
+              <option value="Andhra Pradesh Open School Society">
+                Andhra Pradesh Open School Society
+              </option>
+              <option value="Board of Secondary Education Andhra Pradesh">
+                Board of Secondary Education Andhra Pradesh
+              </option>
+              <option value="Board of Secondary Education Telangana">
+                Board of Secondary Education Telangana
+              </option>
+              <option value="Board of Secondary Education Orissa">
+                Board of Secondary Education Orissa
+              </option>
+              <option value="Board of Secondary Education Assam">
+                Board of Secondary Education Assam
+              </option>
+              <option value="Board of Secondary Education Rajastan">
+                Board of Secondary Education Rajastan
+              </option>
+              <option value="Board of Secondary Education tamilnadu">
+                Board of Secondary Education Tamilnadu
+              </option>
+              <option value="Board of Secondary Education kerala">
+                Board of Secondary Education Kerala
+              </option>
+              <br />
+            </select>
+            <br />
+            <span> Education Board of Matriculation Examination </span>
+          </td>
+        </tr>
+        <tr class="vrboard">
+          <td>(ii). Verify Education Board</td>
+          <td>
+            <select name="" id="vrschool">
+              <option value="--Select--">--Select--</option>
+              <option value="Central Board of Secondary Education (CBSE)">
+                Central Board of Secondary Education (CBSE)
+              </option>
+              <option value="National Institute of Open Schooling(NIOS)">
+                National Institute of Open Schooling(NIOS)
+              </option>
+              <option value="Andhra Pradesh Open School Society">
+                Andhra Pradesh Open School Society
+              </option>
+              <option value="Board of Secondary Education Andhra Pradesh">
+                Board of Secondary Education Andhra Pradesh
+              </option>
+              <option value="Board of Secondary Education Telangana">
+                Board of Secondary Education Telangana
+              </option>
+              <option value="Board of Secondary Education Orissa">
+                Board of Secondary Education Orissa
+              </option>
+              <option value="Board of Secondary Education Assam">
+                Board of Secondary Education Assam
+              </option>
+              <option value="Board of Secondary Education Rajastan">
+                Board of Secondary Education Rajastan
+              </option>
+              <option value="Board of Secondary Education tamilnadu">
+                Board of Secondary Education Tamilnadu
+              </option>
+              <option value="Board of Secondary Education kerala">
+                Board of Secondary Education Kerala
+              </option>
+              <br />
+            </select>
+          </td>
+        </tr>
+        <tr class="regnum">
+          <td>(iii). Roll Number<sup>*</sup></td>
+          <td>
+            <label for="rollnum"></label>
+            <input type="number" id="rollnum" name="roll number" />
+            <br />
+            <span>
+              1. Roll Number should be same as mentioned in Matriculation
+              Certificate
+            </span>
+            <br />
+            <span>
+              2. Only / and - are allowed , Please enter Roll number without any
+              other special character(s)
+            </span>
+            <br />
+            <span>
+              3. If Roll Code is given in your Matriculation Certificate then
+              enter "Roll Code - Roll No
+            </span>
+          </td>
+        </tr>
+        <tr class="vrregnum">
+          <td>(iv). Verify Roll Number</td>
+          <td>
+            <label for="vrrollnum"></label>
+            <input type="number" id="vrrollnum" name="roll number" />
+            <br />
+          </td>
+        </tr>
+        <tr class="pass">
+          <td>(v). Year of Passing<sup>*</sup></td>
+          <td>
+            <select name="" id="year">
+              <option value="--Select--">--Select--</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+            </select>
+          </td>
+        </tr>
+        <tr class="vrpass">
+          <td>(iv). Verify Year of Passing</td>
+          <td>
+            <select name="" id="year">
+              <option value="--Select--">--Select--</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+            </select>
+          </td>
+        </tr>
+        <tr class="gender">
+          <td>7a. Gender<sup>*</sup></td>
+          <td>
+            <input type="radio" id="gend" value="Male" />
+            <label for="gend">Male</label>
+            <input type="radio" id="fgend" value="Female" />
+            <label for="fgend">Female</label>
+            <input type="radio" id="trans" value="Transgender" />
+            <label for="trans">Transgender</label>
+          </td>
+        </tr>
+        <tr class="vrgender">
+          <td>7b. Verify Gender</td>
+          <td>
+            <input type="radio" id="gend" value="Male" />
+            <label for="gend">Male</label>
+            <input type="radio" id="fgend" value="Female" />
+            <label for="fgend">Female</label>
+            <input type="radio" id="trans" value="Transgender" />
+            <label for="trans">Transgender</label>
+          </td>
+        </tr>
+        <tr class="qulaifi">
+          <td>8. Level of Educational Qualification<sup>*</sup></td>
+          <td>
+            <select id="eduquali">
+              <option value="--select--">--Select--</option>
+              <option value="matriculation(10th)">Matriculation (10th)</option>
+              <option value="Higher Seconadry (10+2)">
+                Higher Seconadry (10+2)
+              </option>
+              <option value="Diploma">Diploma</option>
+              <option value="graduation">Graduation</option>
+              <option value="Under graduation">Under Graduation</option>
+              <option value="Ph.d">Ph.d</option>
+            </select>
+          </td>
+        </tr>
+        <tr class="mobile">
+          <td>9a. Mobile Number<sup>*</sup></td>
+          <td>
+            <label for="phone"></label>
+            <input type="tel" id="phone" maxlength="10" name="mobilenum" />
+          </td>
+        </tr>
+        <tr class="vrmobile">
+          <td>9b. Verify Mobile Number</td>
+          <td>
+            <label for="phone"></label>
+            <input type="tel" id="phone" maxlength="10" name="vrmobilenum" />
+          </td>
+        </tr>
+        <tr class="mail">
+          <td>10a. Email<sup>*</sup></td>
+          <td>
+            <label for="mail"></label>
+            <input type="email" id="mail" name="email" />
+          </td>
+        </tr>
+        <tr class="vrmail">
+          <td>10b. Verify Email</td>
+          <td>
+            <label for="mail"></label>
+            <input type="email" id="mail" name="verify email" />
+          </td>
+        </tr>
+        <tr class="address">
+          <td>
+            <li>State / UT of Permanent Address<sup>*</sup></li>
+          </td>
+          <td>
+            <select name="State / UT of Permanent Address" id="address">
+              <option value="--select--">--Select</option>
+              <option value="Andaman & Nicobar">Andaman & Nicobar</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chattisgarh">Chattisgarh</option>
+              <option value="Delhi"></option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="maharastra">Maharastra</option>
+              <option value="madhyapradesh">Madhyapradesh</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <button class="save">Save</button>
+      <button class="reset">Reset</button>
+      <button class="close">Close</button>
+    </form>
+  </body>
+</html>
