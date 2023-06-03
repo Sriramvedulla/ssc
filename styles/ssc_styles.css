@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  border: 2px solid rgb(28, 155, 214);
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+}
+h2 {
+  background-color: skyblue;
+}
+p {
+  color: red;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+table {
+  margin-left: 8%;
+}
+.con,
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+table sup {
+  color: red;
+}
+#yes,
+#no {
+  margin-left: 20px;
+}
+#aadhnum {
+  margin-left: 19px;
+  padding: 5px;
+  width: 80%;
+}
+span {
+  color: blue;
+  margin-left: 19px;
+  font-size: 14px;
+}
+.conta,
+#verify {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+}
+.contai,
+#idtypes,
+.number,
+#idnum,
+.applic,
+#cname,
+.vrapplic,
+#verfyname,
+.new,
+#newname,
+.fathername,
+.vrfathername,
+#fname,
+#verfyftname {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.changename,
+#nameyes,
+#nameno {
+  margin-left: 15px;
+}
+.vrmothername,
+.mothername,
+#mname,
+#vermname,
+.birth,
+.vrbirth,
+#vrbirthday,
+#birthday {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.board,
+.vrboard,
+#school,
+#vrschool,
+.regnum,
+.vrregnum,
+#rollnum,
+#vrrollnum,
+.vrpass,
+.pass,
+#year {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.gender,
+.vrgender,
+#gend {
+  margin-left: 16px;
+}
+.qulaifi,
+#eduquali,
+.mobile,
+.vrmobile,
+#phone {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mail,
+.vrmail,
+#mail,
+.address,
+#address {
+  padding: 5px;
+  margin-left: 18px;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.save {
+  margin-left: 42%;
+  background-color: green;
+  color: white;
+  width: 75px;
+}
+.reset {
+  background-color: orangered;
+  color: white;
+  width: 75px;
+}
+.close {
+  background-color: navy;
+  color: white;
+  width: 75px;
+}
+button {
+  margin: 30px auto;
+  padding: 10px;
+}
